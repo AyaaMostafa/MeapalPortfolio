@@ -1,0 +1,64 @@
+.our-offers-content {
+  text-align: center;
+  margin: 20px;
+  
+  .offers-title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: start;
+  }
+
+  .offers-image {
+    width: 100%;
+    max-width: 900px;
+    margin: 20px 0;
+  }
+
+  .managed-services-title {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    text-align: start;
+  }
+}
+
+@media (max-width: 768px) {
+  .our-offers-content {
+    margin: 10px;
+
+    .offers-title {
+      font-size: 1.5rem;
+      margin-bottom: 15px;
+    }
+
+    .managed-services-title {
+      font-size: 1.2rem; 
+      margin-bottom: 15px;
+    }
+
+    .offers-image {
+      margin: 15px 0;
+      max-width: 100%; 
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .our-offers-content {
+    margin: 5px;
+
+    .offers-title {
+      font-size: 1.2rem; 
+      margin-bottom: 10px;
+    }
+
+    .managed-services-title {
+      font-size: 1rem; 
+      margin-bottom: 10px;
+    }
+
+    .offers-image {
+      margin: 10px 0;
+      max-width: 100%;
+    }
+  }
+}
